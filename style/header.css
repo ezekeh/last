@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-bottom: 100px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    flex: 0.35;
+}
+.nav a{
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+    margin: 0.6rem;
+}
+.logo{
+    font-size: 25px;
+    font-weight: 750;
+
+    min-width: 20%;
+
+}
+@media (max-width:760px){
+    .home{
+        flex-direction: column;
+        
+    }
+    .profile-pic-box{
+        width: 100%;
+        flex-shrink: 0;
+    }
+    .side-side{
+        flex-direction: column;
+    }
+    
+}
